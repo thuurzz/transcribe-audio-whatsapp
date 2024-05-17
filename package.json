@@ -1,0 +1,34 @@
+{
+  "name": "transcribe-audio-whatsapp",
+  "version": "1.0.0",
+  "description": "audio transcription integrated to whatsapp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "dev": "node --watch  src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuurzz/transcribe-audio-whatsapp.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "transcribe",
+    "openai"
+  ],
+  "author": "Arthur Vinicius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thuurzz/transcribe-audio-whatsapp/issues"
+  },
+  "homepage": "https://github.com/thuurzz/transcribe-audio-whatsapp#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^6.5.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
